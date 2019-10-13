@@ -1,0 +1,479 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    align-self: flex-start;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: rgb(9, 104, 141);
+    justify-content: center;
+    align-items: flex-end;
+    height: 150px;
+    font-size: 18px;
+    font-family: 'Orbitron';
+}  
+.barra_nav{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    padding: 15px 20px;
+    
+
+}  
+.indice{
+    color:  rgb(9, 104, 141);
+    text-decoration: none;
+    border: 1px solid rgb(9, 104, 141);
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 1px;
+    font-size: 17px;
+}
+.indice:hover{
+    background-color: #1B486D;
+    transform: scale(1.2);
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    width: 200px;
+}
+body{
+   
+    background-image: url(img/imagen4.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
+}
+.body2{
+    background-image: url(../img/imagen4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+.body3{
+    background-image: url(../img/imagen4.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+.body4{
+    background-image: url(../img/imagen4.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding:0; 
+}
+.eventos{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+}
+.contacto{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+}
+.datos_contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 30px;
+}
+.metodo{
+    font-size: 20pt;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.infomail{
+    font-size: 13pt;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+.cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(9, 104, 141);
+    border-radius: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(9, 104, 141);
+    background: rgba(9, 104, 0141, 0.2)
+    
+}
+.fecha{
+    padding: 15px;
+    text-decoration: underline;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.evento{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section{
+    
+    width: 100%;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    
+    }
+    .titulo2{
+        
+        font-size: 30pt;
+        font-weight: bold;
+        color: black;
+      
+    background-color: aquamarine;
+    }
+
+.caja2{
+    align-self: center;
+    margin-top:40p;   
+    width: 1000px;
+    height: 800px
+    border: 1px solid rgb(9, 104, 141);*/
+    border-radius: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: arial;
+    color: black;
+    font-size: 18pt;
+    background-color: rgb(9, 104, 141);
+    background: rgba(9, 104, 0141, 0.2) 
+    
+}
+.caja2 h3{
+   padding-left: 15px;
+   font-weight: bold
+   
+
+}
+.caja2 p{
+    padding-left: 45px;
+    font-size: 15pt;
+    text-align: justify;
+    padding-right: 10px;
+
+}
+.footer1{
+    
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    color: rgb(9, 104, 141);
+    margin-top: 105px;
+}
+.footer{
+    align-self: flex-end;
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    color: rgb(9, 104, 141);
+  
+}
+.footer2{
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    color: rgb(9, 104, 141);
+    margin-top: 150px;
+}
+.info{
+    font-size: 17px;
+    width: 80%;
+    margin: 80px auto 20px auto;
+    height: auto;
+    min-width: 700px;
+    min-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+p {
+    padding-left: 30px;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.game_day {
+    text-align: left;
+    text-decoration: underline;
+    font-style: arial;
+    padding: 10px 0;
+    
+}
+
+h3, 
+.titulo_1{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.titulo_1{
+    font-weight: bold;
+    font-size: 35pt;
+    text-align: center;
+}
+.titulo_2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.titulo_3 {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+ul .square {
+    list-style-type: square;
+  
+}
+
+ol, ul {
+    margin-top: 0;   
+    padding-left: 50px;
+}
+
+ol li ol li {
+    list-style-type: lower-alpha;
+}
+
+ol li {
+    margin: 0 auto;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.normal_font {
+    font-weight: normal;
+    text-transform: none;
+}
+
+.no_margin {
+    margin: 0;
+}
+
+.liga_1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.game1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.game2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27pt;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 45px;
+}
+.game3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.tabla1{
+    
+    width: 70%;
+    margin-top: 125px;
+    margin-left: 175px;
+    background: rgba(9, 104, 0141, 0.3);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabla1 th{
+    font-weight: bold;
+    font-size: 17pt;
+    text-decoration: underline;
+    
+}
+.tabla1 th, .tabla1 td{
+	padding: 3px 20px;
+    text-align: left;
+    font-size: 15pt;
+}
+.tabla2{
+    
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 175px;
+    background: rgba(9, 104, 0141, 0.3);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabla2 th{
+    font-weight: bold;
+    font-size: 17pt;
+    text-decoration: underline;
+    
+}
+.tabla2 th, .tabla2 td{
+	padding: 3px 20px;
+    text-align: left;
+    font-size: 15pt;
+}
+.local{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.mapas{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start
+}
+.mapa{
+    background-color: rgba(9, 104, 0141, 0.3);
+	margin: 20px 10px;
+	color: #333;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;	
+}
+.mapa p{
+    order: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+	font-weight: bold;
+	margin: 5px 20px;
+}
+.mas_info{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.mas_info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+	
+}
+.mas_info span{
+    font-weight: bold;
+}
+.registro{
+    font-size: 17px;
+    width: 80%;
+    margin: 80px auto 35px 250px;
+    height: auto;
+    min-width: 700px;
+    min-height: 100px;
+}
+.formulario{
+    display: flex;
+    flex-flow: wrap row;
+    margin-bottom: 10px;
+}
+.casilla {
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+    margin: 4px 0;
+}
+.casilla_dob{
+    display: flex;
+    width: 100%;
+}
+.casilla2{
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+    background-color: #eaeaeac7;
+}
+.birth{
+    border-radius: 5px;
+    background-color: #eaeaeaa1;
+}
+.school{
+  
+}
+.school1{
+
+
+}
+.school2{
+    margin-left: 45px;
+}
+  
+.boton {
+    width: 20%;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgba(9, 104, 0141, 0.3);
+    box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, .3);
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.boton:hover {
+    background-color: rgba(89, 145, 52, 0.2);
+}
+  
